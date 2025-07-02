@@ -42,6 +42,7 @@ export const mainProjects: TMainProjects[] = [
       alt: "Project Management System Screenshot",
     },
     github_repo: "https://github.com/AbeDevSaga/project-management",
+    remote_url: "https://project-management-pi-roan.vercel.app/",
   },
   {
     name: "Collaborative Coding Platform",
