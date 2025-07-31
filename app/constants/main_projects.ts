@@ -8,7 +8,6 @@ import harariMassMediaImage from "../../public/projects/mm.png";
 import hintaAiImage from "../../public/projects/hinta2.png";
 import portfolioImage from "../../public/projects/clinet-port.png";
 import feedbackSystemImage from "../../public/projects/mint.png";
-import ecommercePlatformImage from "../../public/projects/ecomerce.png";
 
 export const mainProjects: TMainProjects[] = [
   {
