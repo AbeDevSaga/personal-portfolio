@@ -143,23 +143,6 @@ export const mainProjects: TMainProjects[] = [
     remote_url: "https://feedback-website.onrender.com/homepage",
   },
   {
-    name: "E-Commerce Platform",
-    description:
-      "A high-performance online store built with Next.js featuring server-side rendering and SEO optimization. Integrated Chapa for secure payment processing, with MongoDB and PostgreSQL for managing products, users, and orders.",
-    tags: [
-      { name: "Next.js", color: "blue" },
-      { name: "MongoDB", color: "green" },
-      { name: "PostgreSQL", color: "indigo" },
-      { name: "Chapa", color: "teal" },
-    ],
-    image: {
-      src: ecommercePlatformImage,
-      alt: "E-Commerce Platform Screenshot",
-    },
-    github_repo: "https://github.com/AbeDevSaga/React-Admin-Dashboard",
-  },
-
-  {
     name: "Portfolio Websites for Clients",
     description:
       "Developed personalized, SEO-optimized portfolio websites using Next.js and Tailwind CSS with SSR. Integrated dynamic client data via APIs and custom layouts.",
