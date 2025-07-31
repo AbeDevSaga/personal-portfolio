@@ -1,5 +1,6 @@
 import { TMainProjects } from "./type";
 import rbacImage from "../../public/projects/rbac.png";
+import wagaCommerce from "../../public/projects/wagaCommerce.png";
 import projectManagementImage from "../../public/projects/pm.png";
 import collabCodingImage from "../../public/projects/c-c.png";
 import alumniImage from "../../public/projects/waa.png";
@@ -10,6 +11,23 @@ import feedbackSystemImage from "../../public/projects/mint.png";
 import ecommercePlatformImage from "../../public/projects/ecomerce.png";
 
 export const mainProjects: TMainProjects[] = [
+  {
+    name: "Waga Commerce Platform",
+    description:
+      "A role-based commercial platform built with Next.js, Redux, and Tailwind CSS, allowing businesses to register, manage, and showcase products or services for local and global users.",
+    tags: [
+      { name: "Next.js", color: "blue" },
+      { name: "Redux", color: "purple" },
+      { name: "Tailwind CSS", color: "teal" },
+      { name: "Role-Based Access Control", color: "green" },
+      { name: "E-commerce", color: "orange" },
+    ],
+    image: {
+      src: wagaCommerce,
+      alt: "Waga Commerce Platform Screenshot",
+    },
+    remote_url: "https://test.waga365.com/home",
+  },
   {
     name: "RBAC Dashboard Template",
     description:
@@ -137,8 +155,8 @@ export const mainProjects: TMainProjects[] = [
     image: {
       src: ecommercePlatformImage,
       alt: "E-Commerce Platform Screenshot",
-    }, 
-    github_repo: "https://github.com/AbeDevSaga/React-Admin-Dashboard", 
+    },
+    github_repo: "https://github.com/AbeDevSaga/React-Admin-Dashboard",
   },
 
   {
